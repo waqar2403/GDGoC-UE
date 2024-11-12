@@ -3,14 +3,18 @@
 import { initializeApp } from 'firebase/app';
 import { getStorage } from 'firebase/storage';
 
+
 const firebaseConfig = {
-  apiKey: "apni lgao",
-  authDomain: "gdgocue.firebaseapp.com",
-  projectId: "gdgocue",
-  storageBucket: "gdgocue.firebasestorage.app",
-  messagingSenderId: "996237960138",
-  appId: "1:996237960138:web:73f925f50c69991be42533"
+  apiKey: process.env.FIREBASE_API_KEY,
+  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.FIREBASE_PROJECT_ID,
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.FIREBASE_APP_ID
 };
+
+
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
