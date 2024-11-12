@@ -4,7 +4,7 @@ import { initializeApp } from 'firebase/app';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDHVzC-2KP53oOozdhJskH38kMngp8UIJs",
+  apiKey: "apni lgao",
   authDomain: "gdgocue.firebaseapp.com",
   projectId: "gdgocue",
   storageBucket: "gdgocue.firebasestorage.app",
